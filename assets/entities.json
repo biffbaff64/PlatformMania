@@ -1,0 +1,1576 @@
+[{
+"_NAME": "Player",
+"_GID": "G_PLAYER",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "idle",
+"_FRAMES": 9,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Player Spawn",
+"_GID": "G_PLAYER_SPAWNING",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "spawn",
+"_FRAMES": 12,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+}
+},
+{
+"_NAME": "Player Crouch",
+"_GID": "G_PLAYER_CROUCH",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "crouch",
+"_FRAMES": 9,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Player Run",
+"_GID": "G_PLAYER_RUN",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "run",
+"_FRAMES": 8,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Player Fight",
+"_GID": "G_PLAYER_FIGHT",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "attack",
+"_FRAMES": 7,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+}
+},
+{
+"_NAME": "Player Jump",
+"_GID": "G_PLAYER_JUMP",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "jump",
+"_FRAMES": 7,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 38
+}
+},
+{
+"_NAME": "Player Climb",
+"_GID": "G_PLAYER_CLIMB",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "climb",
+"_FRAMES": 2,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+}
+},
+{
+"_NAME": "Player Hurt",
+"_GID": "G_PLAYER_HURT",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "hit",
+"_FRAMES": 4,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+}
+},
+{
+"_NAME": "Player Death",
+"_GID": "G_PLAYER_DYING",
+"_TILE": "_PLAYER_TILE",
+"_ASSET": "death",
+"_FRAMES": 5,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 36
+}
+},
+{
+"_NAME": "Player Knife",
+"_GID": "G_PLAYER_KNIFE",
+"_TILE": "_PLAYER_WEAPON_TILE",
+"_ASSET": "throw_dagger",
+"_FRAMES": 4,
+"_TYPE": "_WEAPON",
+"_POSITION": {},
+"_SIZE": {
+	"x": 15,
+	"y": 16
+}
+},
+{
+"_NAME": "Prisoner",
+"_GID": "G_PRISONER",
+"_TILE": "_PRISONER_TILE",
+"_ASSET": "villager1_idle",
+"_FRAMES": 9,
+"_TYPE": "_MAIN",
+"_POSITION": {},
+"_SIZE": {
+	"x": 80,
+	"y": 80
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Bat",
+"_GID": "G_BAT",
+"_TILE": "_BAT_TILE",
+"_ASSET": "bat_fly",
+"_FRAMES": 7,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Bat Attack",
+"_GID": "G_BAT_ATTACK",
+"_TILE": "_BAT_TILE",
+"_ASSET": "bat_attack",
+"_FRAMES": 10,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Beast",
+"_GID": "G_BEAST",
+"_TILE": "_BEAST_TILE",
+"_ASSET": "beast_idle",
+"_FRAMES": 11,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Beast Walk",
+"_GID": "G_BEAST_WALK",
+"_TILE": "_BEAST_TILE",
+"_ASSET": "beast_walk",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Beast Attack",
+"_GID": "G_BEAST_ATTACK",
+"_TILE": "_BEAST_TILE",
+"_ASSET": "beast_attack",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Mushroom",
+"_GID": "G_MUSHROOM",
+"_TILE": "_MUSHROOM_TILE",
+"_ASSET": "mushroom_walk",
+"_FRAMES": 10,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 41,
+	"y": 30
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Crow Man",
+"_GID": "G_CROW_MAN",
+"_TILE": "_CROW_MAN_TILE",
+"_ASSET": "enemy04_idle",
+"_FRAMES": 7,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Crow Man Run",
+"_GID": "G_CROW_MAN_RUN",
+"_TILE": "_CROW_MAN_TILE",
+"_ASSET": "enemy04_walk",
+"_FRAMES": 6,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Crow Man Attack",
+"_GID": "G_CROW_MAN_ATTACK",
+"_TILE": "_CROW_MAN_TILE",
+"_ASSET": "enemy04_attack",
+"_FRAMES": 7,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Worm Man",
+"_GID": "G_WORM_MAN",
+"_TILE": "_WORM_MAN_TILE",
+"_ASSET": "enemy05_idle",
+"_FRAMES": 9,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 74,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Worm Man Run",
+"_GID": "G_WORM_MAN_RUN",
+"_TILE": "_WORM_MAN_TILE",
+"_ASSET": "enemy05_walk",
+"_FRAMES": 6,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 74,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Worm Man Attack",
+"_GID": "G_WORM_MAN_ATTACK",
+"_TILE": "_WORM_MAN_TILE",
+"_ASSET": "enemy05_attack",
+"_FRAMES": 6,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 74,
+	"y": 64
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Turtle",
+"_GID": "G_SPIKEY_TURTLE",
+"_TILE": "_SPIKEY_TURTLE_TILE",
+"_ASSET": "spikey_turtle_green",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 34
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Frog",
+"_GID": "G_FROG",
+"_TILE": "_FROG_TILE",
+"_ASSET": "sunny-froggy-walk",
+"_FRAMES": 10,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 42,
+	"y": 38
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Frog Jump",
+"_GID": "G_FROG_JUMP",
+"_TILE": "_FROG_TILE",
+"_ASSET": "sunny-froggy-jump",
+"_FRAMES": 7,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 42,
+	"y": 38
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Frog Taunt",
+"_GID": "G_FROG_TAUNTING",
+"_TILE": "_FROG_TILE",
+"_ASSET": "sunny-froggy-taunting",
+"_FRAMES": 4,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 42,
+	"y": 38
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Rabbit",
+"_GID": "G_RABBIT",
+"_TILE": "_RABBIT_TILE",
+"_ASSET": "sunny-bunny-run",
+"_FRAMES": 6,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 34,
+	"y": 44
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Goblin",
+"_GID": "G_GOBLIN",
+"_TILE": "_GOBLIN_TILE",
+"_ASSET": "goblin_idle",
+"_FRAMES": 4,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 42,
+	"y": 48
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.8
+},
+{
+"_NAME": "Mushroom Monster",
+"_GID": "G_MUSHROOM_MONSTER",
+"_TILE": "_MUSHROOM_MONSTER_TILE",
+"_ASSET": "mushroom_monster_run",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 36,
+	"y": 52
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.5
+},
+{
+"_NAME": "Spawner",
+"_GID": "G_SPAWNER",
+"_TILE": "_SPAWNER_TILE",
+"_ASSET": "spawner_spawn",
+"_FRAMES": 12,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 32
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.5
+},
+{
+"_NAME": "Spawner Running",
+"_GID": "G_SPAWNER_RUN",
+"_TILE": "_SPAWNER_TILE",
+"_ASSET": "spawner_run",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 32
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.5
+},
+{
+"_NAME": "Spawner Dying",
+"_GID": "G_SPAWNER_DYING",
+"_TILE": "_SPAWNER_TILE",
+"_ASSET": "spawner_spawn",
+"_FRAMES": 12,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 32
+},
+"_PLAYMODE": "REVERSED",
+"_ANIM_RATE": 0.5
+},
+{
+"_NAME": "Plant",
+"_GID": "G_PLANT",
+"_TILE": "_PLANT_TILE",
+"_ASSET": "plant_idle",
+"_FRAMES": 8,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_PLAYMODE": "LOOP",
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Plant Fight",
+"_GID": "G_PLANT_FIGHTING",
+"_TILE": "_PLANT_TILE",
+"_ASSET": "plant_attack",
+"_FRAMES": 16,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Plant Hurt",
+"_GID": "G_PLANT_HURT",
+"_TILE": "_PLANT_TILE",
+"_ASSET": "plant_hurt",
+"_FRAMES": 3,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 64
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Drop Block",
+"_GID": "G_DROP_BLOCK",
+"_TILE": "_DROP_BLOCK_TILE",
+"_ASSET": "square_block48x48_eyes",
+"_FRAMES": 2,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 48
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Spikes",
+"_GID": "G_SPIKES",
+"_TILE": "_SPIKES_TILE",
+"_ASSET": "spike",
+"_FRAMES": 1,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 16,
+	"y": 48
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Down Spikes",
+"_GID": "G_DOWN_SPIKES",
+"_TILE": "_DOWN_SPIKES_TILE",
+"_ASSET": "down_spike",
+"_FRAMES": 1,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 16,
+	"y": 48
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Left Spikes",
+"_GID": "G_LEFT_SPIKES",
+"_TILE": "_LEFT_SPIKES_TILE",
+"_ASSET": "left_spike",
+"_FRAMES": 1,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 16
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Right Spikes",
+"_GID": "G_RIGHT_SPIKES",
+"_TILE": "_RIGHT_SPIKES_TILE",
+"_ASSET": "right_spike",
+"_FRAMES": 1,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 16
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Small Spikes",
+"_GID": "G_SMALL_SPIKES",
+"_TILE": "_SPIKES_TILE",
+"_ASSET": "small_spike",
+"_FRAMES": 1,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 16,
+	"y": 40
+},
+"_ANIM_RATE": 0.4
+},
+{
+"_NAME": "Bat Stone",
+"_GID": "G_BAT_BOMB",
+"_TILE": "_SMALL_BOULDER_TILE",
+"_ASSET": "small_boulder",
+"_FRAMES": 9,
+"_TYPE": "_ENEMY",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "Coin",
+"_GID": "G_COIN",
+"_TILE": "_COIN_TILE",
+"_ASSET": "coin",
+"_FRAMES": 4,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 24,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Blue Gem",
+"_GID": "G_GEM",
+"_TILE": "_GEM_TILE",
+"_ASSET": "gems_blue",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 28,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Red Gem",
+"_GID": "G_GEM",
+"_TILE": "_RED_GEM_TILE",
+"_ASSET": "gems_red",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 28,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Green Gem",
+"_GID": "G_GEM",
+"_TILE": "_GREEN_GEM_TILE",
+"_ASSET": "gems_green",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 28,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Yellow Gem",
+"_GID": "G_GEM",
+"_TILE": "_YELLOW_GEM_TILE",
+"_ASSET": "gems_gold",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 28,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Key",
+"_GID": "G_KEY",
+"_TILE": "_KEY_TILE",
+"_ASSET": "gold_key",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Apple",
+"_GID": "G_APPLE",
+"_TILE": "_APPLE_TILE",
+"_ASSET": "apple",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Heart",
+"_GID": "G_HEART",
+"_TILE": "_HEART_TILE",
+"_ASSET": "heart",
+"_FRAMES": 6,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 24,
+	"y": 24
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Treasure Chest",
+"_GID": "G_TREASURE_CHEST",
+"_TILE": "_CHEST_TILE",
+"_ASSET": "treasure_chest",
+"_FRAMES": 5,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 32
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Treasure Chest Opening",
+"_GID": "G_TREASURE_CHEST_OPENING",
+"_TILE": "_CHEST_TILE",
+"_ASSET": "treasure_chest_opening",
+"_FRAMES": 5,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Chest",
+"_GID": "_IC_CHEST",
+"_TILE": "_IC_CHEST_TILE",
+"_ASSET": "ic_icon0",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Letter",
+"_GID": "_IC_LETTER",
+"_TILE": "_IC_LETTER_TILE",
+"_ASSET": "ic_icon1",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Map",
+"_GID": "_IC_MAP",
+"_TILE": "_IC_MAP_TILE",
+"_ASSET": "ic_icon2",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Book1",
+"_GID": "_IC_BOOK1",
+"_TILE": "_IC_BOOK1_TILE",
+"_ASSET": "ic_icon3",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Book2",
+"_GID": "_IC_BOOK2",
+"_TILE": "_IC_BOOK2_TILE",
+"_ASSET": "ic_icon10",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Book3",
+"_GID": "_IC_BOOK3",
+"_TILE": "_IC_BOOK3_TILE",
+"_ASSET": "ic_icon25",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Gold Coin",
+"_GID": "_IC_GOLD_COIN",
+"_TILE": "_IC_GOLD_COIN_TILE",
+"_ASSET": "ic_icon13",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Silver Coin",
+"_GID": "_IC_SILVER_COIN",
+"_TILE": "_IC_SILVER_COIN_TILE",
+"_ASSET": "ic_icon4",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Bronze Coin",
+"_GID": "_IC_BRONZE_COIN",
+"_TILE": "_IC_BRONZE_COIN_TILE",
+"_ASSET": "ic_icon26",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Scroll",
+"_GID": "_IC_SCROLL",
+"_TILE": "_IC_SCROLL_TILE",
+"_ASSET": "ic_icon5",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Candle",
+"_GID": "_IC_CANDLE",
+"_TILE": "_IC_CANDLE_TILE",
+"_ASSET": "ic_icon6",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Ruby",
+"_GID": "_IC_RUBY",
+"_TILE": "_IC_RUBY_TILE",
+"_ASSET": "ic_icon7",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Rune",
+"_GID": "_IC_RUNE",
+"_TILE": "_IC_RUNE_TILE",
+"_ASSET": "ic_icon8",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Pickaxe",
+"_GID": "_IC_PICKAXE",
+"_TILE": "_IC_PICKAXE_TILE",
+"_ASSET": "ic_icon9",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Gold Key",
+"_GID": "_IC_CRATE",
+"_TILE": "_IC_GOLD_KEY_TILE",
+"_ASSET": "ic_icon11",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Silver Key",
+"_GID": "_IC_BOOT",
+"_TILE": "_IC_SILVER_KEY_TILE",
+"_ASSET": "ic_icon29",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Key",
+"_GID": "_IC_STRING",
+"_TILE": "_IC_KEY_TILE",
+"_ASSET": "ic_icon23",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Lantern",
+"_GID": "_IC_LANTERN",
+"_TILE": "_IC_LANTERN_TILE",
+"_ASSET": "ic_icon12",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Axe",
+"_GID": "_IC_AXE",
+"_TILE": "_IC_AXE_TILE",
+"_ASSET": "ic_icon14",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Hat",
+"_GID": "_IC_WIZARDS_HAT",
+"_TILE": "_IC_HAT_TILE",
+"_ASSET": "ic_icon15",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Potion",
+"_GID": "_IC_GREEN_POTION",
+"_TILE": "_IC_POTION_TILE",
+"_ASSET": "ic_icon16",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Egg",
+"_GID": "_IC_EGG",
+"_TILE": "_IC_EGG_TILE",
+"_ASSET": "ic_icon17",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Helmet",
+"_GID": "_IC_METAL_HELMET",
+"_TILE": "_IC_HELMET_TILE",
+"_ASSET": "ic_icon18",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Hammer",
+"_GID": "_IC_HAMMER",
+"_TILE": "_IC_HAMMER_TILE",
+"_ASSET": "ic_icon19",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Bottle",
+"_GID": "_IC_BOTTLE",
+"_TILE": "_IC_BOTTLE_TILE",
+"_ASSET": "ic_icon20",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Gear",
+"_GID": "_IC_GEAR",
+"_TILE": "_IC_GEAR_TILE",
+"_ASSET": "ic_icon21",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Armour",
+"_GID": "_IC_ARMOUR",
+"_TILE": "_IC_ARMOUR_TILE",
+"_ASSET": "ic_icon22",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Beer",
+"_GID": "_IC_BEER",
+"_TILE": "_IC_BEER_TILE",
+"_ASSET": "ic_icon24",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Parchment",
+"_GID": "_IC_PARCHMENT",
+"_TILE": "_IC_PARCHMENT_TILE",
+"_ASSET": "ic_icon27",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Feather",
+"_GID": "_IC_FEATHER",
+"_TILE": "_IC_FEATHER_TILE",
+"_ASSET": "ic_icon28",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Rucksack",
+"_GID": "_IC_RUCKSACK",
+"_TILE": "_IC_EMERALD_TILE",
+"_ASSET": "ic_icon30",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Belt",
+"_GID": "_IC_BELT",
+"_TILE": "_IC_BELT_TILE",
+"_ASSET": "ic_icon31",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Bread",
+"_GID": "_IC_BREAD",
+"_TILE": "_IC_BREAD_TILE",
+"_ASSET": "ic_icon32",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Eye",
+"_GID": "_IC_EYE",
+"_TILE": "_IC_EYE_TILE",
+"_ASSET": "ic_icon33",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Leather Helmet",
+"_GID": "_IC_LEATHER_HELMET",
+"_TILE": "_IC_LEATHER_HELMET_TILE",
+"_ASSET": "ic_icon34",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Red Wand",
+"_GID": "_IC_RED_WAND",
+"_TILE": "_IC_RED_WAND_TILE",
+"_ASSET": "ic_icon35",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Gold Bar",
+"_GID": "_IC_GOLD_BAR",
+"_TILE": "_IC_GOLD_BAR_TILE",
+"_ASSET": "ic_icon36",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Longbow",
+"_GID": "_IC_LONGBOW",
+"_TILE": "_IC_LONGBOW_TILE",
+"_ASSET": "ic_icon37",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Blue Wand",
+"_GID": "_IC_BLUE_WAND",
+"_TILE": "_IC_BLUE_WAND_TILE",
+"_ASSET": "ic_icon38",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Leather Chestplate",
+"_GID": "_IC_LEATHER_CHESTPLATE",
+"_TILE": "_IC_LEATHER_CHESTPLATE_TILE",
+"_ASSET": "ic_icon39",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Green Wand",
+"_GID": "_IC_GREEN_WAND",
+"_TILE": "_IC_GREEN_WAND_TILE",
+"_ASSET": "ic_icon40",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Mushroom",
+"_GID": "_IC_MUSHROOM",
+"_TILE": "_IC_MUSHROOM_TILE",
+"_ASSET": "ic_icon41",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Arrow",
+"_GID": "_IC_ARROW",
+"_TILE": "_IC_ARROW_TILE",
+"_ASSET": "ic_icon42",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Red Potion",
+"_GID": "_IC_RED_POTION",
+"_TILE": "_IC_RED_POTION_TILE",
+"_ASSET": "ic_icon43",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Pearl",
+"_GID": "_IC_PEARL",
+"_TILE": "_IC_PEARL_TILE",
+"_ASSET": "ic_icon44",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Sword",
+"_GID": "_IC_SWORD",
+"_TILE": "_IC_SWORD_TILE",
+"_ASSET": "ic_icon45",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Blue Potion",
+"_GID": "_IC_BLUE_POTION",
+"_TILE": "_IC_BLUE_POTION_TILE",
+"_ASSET": "ic_icon46",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "IC Rope",
+"_GID": "_IC_ROPE",
+"_TILE": "_IC_ROPE_TILE",
+"_ASSET": "ic_icon47",
+"_FRAMES": 1,
+"_TYPE": "_PICKUP",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "Moving Platform",
+"_GID": "G_MOVING_PLATFORM",
+"_TILE": "_MOVING_PLATFORM_TILE",
+"_ASSET": "moving_platform",
+"_FRAMES": 1,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 80,
+	"y": 16
+}
+},
+{
+"_NAME": "Small Platform",
+"_GID": "G_MOVING_PLATFORM",
+"_TILE": "_SMALL_MOVING_PLATFORM_TILE",
+"_ASSET": "moving_platform_small",
+"_FRAMES": 1,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 40,
+	"y": 16
+}
+},
+{
+"_NAME": "Small Boulder",
+"_GID": "G_PUSHABLE_BOULDER",
+"_TILE": "_SMALL_BOULDER_TILE",
+"_ASSET": "boulder32x32",
+"_FRAMES": 1,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+}
+},
+{
+"_NAME": "Crate",
+"_GID": "G_PUSHABLE_CRATE",
+"_TILE": "_CRATE_TILE",
+"_ASSET": "crate",
+"_FRAMES": 4,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 48,
+	"y": 48
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Locked Door",
+"_GID": "G_LOCKED_DOOR",
+"_TILE": "_LOCKED_DOOR_TILE",
+"_ASSET": "locked_door",
+"_FRAMES": 1,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 64,
+	"y": 96
+}
+},
+{
+"_NAME": "Floor Lever",
+"_GID": "G_FLOOR_LEVER",
+"_TILE": "_FLOOR_LEVER_TILE",
+"_ASSET": "floor_lever",
+"_FRAMES": 7,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 92,
+	"y": 58
+}
+},
+{
+"_NAME": "Checkpoint",
+"_GID": "G_RED_FLAG",
+"_TILE": "_FLAG_TILE",
+"_ASSET": "flag_red",
+"_FRAMES": 5,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 50
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Checkpoint On",
+"_GID": "G_GREEN_FLAG",
+"_TILE": "_FLAG_TILE",
+"_ASSET": "flag_green",
+"_FRAMES": 5,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 50
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "block6x6",
+"_GID": "G_BIG_BLOCK",
+"_TILE": "_BLOCK_6X6_TILE",
+"_ASSET": "block6x6",
+"_FRAMES": 1,
+"_TYPE": "_INTERACTIVE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 96,
+	"y": 96
+}
+},
+{
+"_NAME": "Eyes",
+"_GID": "G_EYES",
+"_TILE": "_EYES_TILE",
+"_ASSET": "eyes",
+"_FRAMES": 3,
+"_TYPE": "_DECORATION",
+"_POSITION": {},
+"_SIZE": {
+	"x": 30,
+	"y": 20
+},
+"_PLAYMODE": "LOOP_PINGPONG"
+},
+{
+"_NAME": "Flames",
+"_GID": "G_FLAMES",
+"_TILE": "_FLAME_TILE",
+"_ASSET": "flames1",
+"_FRAMES": 8,
+"_TYPE": "_DECORATION",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Bees",
+"_GID": "G_BEES",
+"_TILE": "_BEES_TILE",
+"_ASSET": "bees",
+"_FRAMES": 10,
+"_TYPE": "_DECORATION",
+"_POSITION": {},
+"_SIZE": {
+	"x": 32,
+	"y": 32
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_NAME": "Fish",
+"_GID": "G_FISH",
+"_TILE": "_FISH_TILE",
+"_ASSET": "fish1",
+"_FRAMES": 6,
+"_TYPE": "_DECORATION",
+"_POSITION": {},
+"_SIZE": {
+	"x": 16,
+	"y": 16
+},
+"_PLAYMODE": "LOOP"
+},
+{
+"_GID": "_WALL",
+"_TILE": "_WALL_TILE",
+"_ASSET": null,
+"_TYPE": "_OBSTACLE",
+"_POSITION": {},
+"_SIZE": {
+	"x": 202,
+	"y": 124
+}
+},
+{
+"_NAME": "Speech Bubble",
+"_GID": "G_HELP_BUBBLE",
+"_TILE": "_SPEECH_BUBBLE_TILE",
+"_ASSET": "help_me_speech",
+"_FRAMES": 3,
+"_TYPE": "_SPEECH",
+"_POSITION": {},
+"_SIZE": {
+	"x": 72,
+	"y": 52
+}
+},
+]
